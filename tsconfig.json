@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "paths": {
+      "src": ["./src"],
+      "root": ["."]
+    },
+    "baseUrl": "./"
+  },
+  "files": [
+    "./src/index.tsx",
+    "./js_transition.d.ts"
+  ],
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
+}

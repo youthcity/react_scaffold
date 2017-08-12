@@ -1,0 +1,70 @@
+.tips_wrap {
+  position: fixed;
+  top: 80px;
+  width: 339px;
+  min-height: 36px;
+  left: calc(50% - 170px);
+  display: none;
+  z-index: 30;
+  &.show {
+    display: block
+  }
+  .tips_item {
+    min-height: 36px;
+    width: 100%;
+    border: 2px solid #A87118;
+    border-radius: 6px;
+    background-color: #FFFBF2;
+    padding: 5px;
+    animation: fadeIn 1s ease;
+    margin-bottom: 10px;
+    .tips_icon {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url('src/commons/images/selected.png') no-repeat;
+      margin-right: 10px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    .success {
+      background-position: -3px -36px;
+    }
+    .error {
+      background-position: -3px -36px;
+    }
+    span {
+      font-size: 14px;
+      color: #999;
+      vertical-align: middle;
+    }
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.simple_tips {
+  position: fixed;
+  color: #fff;
+  padding: 20px 60px;
+  background: rgba(0,0,0,0.6);
+  min-height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 30;
+  font-size: 14px;
+  margin-top: -20px;
+  text-align: center;
+  &.mobile {
+    padding: 10px 10px;
+    margin-top: -10px;
+  }
+}

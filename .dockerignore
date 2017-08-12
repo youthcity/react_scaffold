@@ -1,0 +1,39 @@
+# Repository metadata
+**/.git
+**/.gitignore
+**/.gitmodules
+**/.arcconfig
+**/.dockerignore
+**/Dockerfile
+**/*-compose.yml
+**/Jenkinsfile
+
+# Local data
+localdata/
+
+#vim
+**/*~
+**/*.sw?
+
+# generic editing tools
+**/tags
+
+#mac
+**/.DS_Store
+
+# build tools
+# ... i don't know.
+node_modules
+node_modules/
+**/node_modules
+*/node_modules
+**/node_modules/
+*/node_modules/
+typings/
+
+# logfiles
+**/*.log
+**/.idea/
+
+# build artifacts
+build/

@@ -1,0 +1,31 @@
+{
+  "buildtime_and_runtime": {
+    "image_host_url": ""
+  },
+  "buildtime": {
+    "hot": false,
+    "dashboard": false,
+    "uglify": true,
+    "analyze": false,
+    "origin_server": {
+      "ip": "0.0.0.0",
+      "port": "5000"
+    }
+  },
+  "runtime": {
+    "sourcemap": true,
+    "debug": true,
+    "language": "zh-CN",
+    "api": {
+      "host": "https://backend-dev.codemao.cn",
+      "port": "443"
+    },
+    "host": {
+      "whitepaw": "https://frontend-dev.codemao.cn",
+      "mobile": "https://mobile-dev.codemao.cn",
+      "ide": "https://dev-ide.codemao.cn",
+      "box": "https://box-dev.codemao.cn",
+      "wood": "https://dev-py.codemao.cn"
+    }
+  }
+}
