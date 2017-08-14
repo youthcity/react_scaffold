@@ -26,4 +26,4 @@ node_modules/
 build/
 
 # config override
-config/local.*
+config/local.json
