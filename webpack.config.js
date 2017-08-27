@@ -83,6 +83,15 @@ let webpackConfig = {
         exclude: /node_modules/
       },
       {
+        test: /\.less$/,
+        use:[
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+          { loader: 'less-loader'},
+        ],
+        include: [/node_modules\/.*antd/]
+      },
+      {
         test: /\.s?css$/,
         use:[
           { loader: "style-loader" },

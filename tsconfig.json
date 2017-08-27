@@ -2,14 +2,16 @@
   "compilerOptions": {
     "sourceMap": true,
     "noImplicitAny": false,
-    "module": "commonjs",
+    "module": "es6",
     "target": "es6",
     "jsx": "react",
     "paths": {
       "src": ["./src"],
       "root": ["."]
     },
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
   "files": [
     "./src/index.tsx",
