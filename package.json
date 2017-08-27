@@ -11,8 +11,6 @@
     "test": "cross-env NODE_ENV=development webpack && webpack-dev-server --inline --history-api-fallback"
   },
   "dependencies": {
-    "@types/react-css-modules": "^4.2.1",
-    "@types/redux-actions": "^1.2.6",
     "antd": "^2.12.7",
     "axios": "^0.15.3",
     "babel-polyfill": "^6.22.0",
@@ -22,7 +20,6 @@
     "moment": "^2.18.1",
     "perfect-scrollbar": "^0.7.1",
     "pubsub-js": "^1.5.4",
-    "qiniu-js": "^1.0.19",
     "react": "^15.6.1",
     "react-css-modules": "^4.5.2",
     "react-dom": "^15.6.1",
@@ -34,6 +31,8 @@
     "redux-saga": "^0.14.2"
   },
   "devDependencies": {
+    "@types/react-css-modules": "^4.2.1",
+    "@types/redux-actions": "^1.2.6",
     "@types/classnames": "0.0.32",
     "@types/lodash": "^4.14.40",
     "@types/pubsub-js": "^1.5.17",
