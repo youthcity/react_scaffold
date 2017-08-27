@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/react-css-modules": "^4.2.1",
     "@types/redux-actions": "^1.2.6",
-    "@types/classnames": "0.0.32",
+    "@types/classnames": "^2.2.3",
     "@types/lodash": "^4.14.40",
     "@types/pubsub-js": "^1.5.17",
     "@types/react": "^15.6.2",
@@ -69,7 +69,7 @@
     "tslint-loader": "^3.5.3",
     "typescript": "^2.4.2",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.1",
+    "webpack": "^2.7.0",
     "webpack-bundle-analyzer": "^2.1.1",
     "webpack-dev-server": "^2.3.0",
     "webpack-md5-hash": "^0.0.5"
