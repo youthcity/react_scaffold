@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as CSSModules from 'react-css-modules';
 import * as cx from 'classnames';
-import { Button } from 'antd';
+import { Button, message } from 'antd';
 
 import { NoticesContainer } from 'src/components/notice';
 import { fetch_user_info, UserInfo } from 'src/redux/user_info/reducer';
@@ -19,6 +19,11 @@ class Index extends React.Component<IndexProps, any> {
     super(props, context);
     this.props.fetch_user_info();
   }
+
+  componentDidMount() {
+
+  }
+
   render() {
     const intruduction = '';
     const { user_info } = this.props;
